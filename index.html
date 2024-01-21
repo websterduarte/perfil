@@ -9,6 +9,7 @@
         *{
             margin: 0px;
             padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
         }
         :root{
             --cor1: #838080;
@@ -17,20 +18,36 @@
 
         }
         body{
+            position: absolute;
+            top: 50px;
+            left: 400px;
             background-color: #000000;
+            margin: auto;
         }
 
+        h2, p{
+            text-align: center;
+            padding: 10px;
+            color: white;
+        }
+
+        
         div{
             width: 500px;
             margin: auto;
 
         }
         .principal{
+        
+
             
             background-color: var(--cor3);
             border: solid 1px;
             border-radius: 5px;
             padding: 20px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
             
         }
         .foto{
@@ -42,16 +59,21 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
-        .perfil01{
-            width: 50px;
-            height: 50px;
-            border: 1px solid;
+        .perfil01, .perfil02, .perfil03, .perfil04, .perfil05{
+            width: 200px;
+            height: 20px;
+            border: 1px solid var(--cor1);
             background-color: var(--cor1);
-            border-radius: 20px;
-            padding: 0px;
+            border-radius: 10px;
+            padding: 10px;
+            color: white;
+            font-weight: bolder;
+            text-align: center;
+            margin-bottom: 10px;
             
 
         }
+       
     </style>
 </head>
 <body>
